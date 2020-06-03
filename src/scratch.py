@@ -9,6 +9,8 @@
 # print(my_second_instane)
 # print(MyFirstClass)
 
+
+
 # class Student:
 #     my_list = []
 #     def _init_(self, first_name, last_name):
@@ -22,6 +24,8 @@
 # me = Student("Juana", "Villalpando")
 # you = Student("hello", "world")
 # print(me.my_list)
+
+
 
 # class Point:
 #     def __init__(self, x, y):
@@ -40,6 +44,8 @@
 # x = 1
 # y = 2
 
+
+
 # def my_function(x):
 #     y = 3
 #     print(x,y)
@@ -53,12 +59,16 @@
 
 # print(len('cat'))
 
+
+
 # def my_function():
 #     global x
 #     x = 100
 
 # my_function() #this needs to get called ,else it will not call the global x in the function. 
 # print(x)
+
+
 
 class Store:
     def __init__(self, name, categories):
