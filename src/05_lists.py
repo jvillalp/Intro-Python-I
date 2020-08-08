@@ -33,7 +33,18 @@ print(len(x))
 
 # Print all the values in x multiplied by 1000
 # YOUR CODE HERE
-def m(val):
-    return val * 1000
-print(list(map(m, x)))
+
+
+# def m(val):
+#     return val * 1000
+# print(list(map(m, x)))
+
+x_1000 = []
+for i in x:
+    x_1000.append(i * 1000)
+print(x_1000)
+
+for i in x:
+    print(i * 1000)
+
 
