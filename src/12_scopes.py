@@ -5,7 +5,7 @@
 x = 12
 
 def change_x():
-    global x
+    global x # - scope of modual or file you are working on
     x = 99
 
 change_x()
@@ -20,7 +20,7 @@ def outer():
     y = 120
 
     def inner():
-        nonlocal y
+        nonlocal y #enclosing -- nested function
         y = 999
 
     inner()
@@ -32,3 +32,6 @@ def outer():
 
 
 outer()
+
+
+# print(dir(__Builtin__))
